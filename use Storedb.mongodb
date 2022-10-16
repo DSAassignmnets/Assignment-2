@@ -1,0 +1,9 @@
+use Storedb
+db.stores.insert({"storeName":"Veggiestore", "foodItems":"vegatables", "quantity":'1500'})
+db.stores.insert({"storeName":"Meatstore", "foodItems":"Meatproducts", "quantity": '150'})
+db.stores.insert({"storeName":"Pastrystore", "foodItems":"Pastries", "quantity":'2000'})
+
+use Customerdb
+db.customer.insert({"customerName":"Jared", "customerNumber": "001", "customerEmail":"example@gmail.com"})
+db.customer.insert({"customerName":"Sahra", "customerNumber": "002", "customerEmail": "example2@yahoo.com"})
+
